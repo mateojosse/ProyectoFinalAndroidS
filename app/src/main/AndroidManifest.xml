@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mx.edu.tesoem.isc.7S21MSJAproyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="7S21MSJAproyecto"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.7S21MSJAproyecto">
+        <activity
+            android:name=".EliminaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActualizaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ListarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistrarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PrincipalActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
